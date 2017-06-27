@@ -24,7 +24,7 @@ namespace ConsoleApplication1
                 File.Create(errorLogFile);
             }
             //Console.WriteLine(logFile + errorLogFile);
-            lf = new StreamWriter(logFile, true);
+            lf = new StreamWriter(logFile, true) ;
             elf = new StreamWriter(errorLogFile, true);
             lf.AutoFlush = true;
             elf.AutoFlush = true;
